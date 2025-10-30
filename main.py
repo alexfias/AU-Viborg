@@ -31,3 +31,16 @@ n.add("Link","CHP",
 n.add("Carrier","biogas")
 n.add("Generator","biogas_supply", bus="gas", carrier="biogas",
       p_nom=1e6, marginal_cost=0.17*1000)
+
+n.add(
+    "Generator",
+    "solar",
+    bus="elec",
+    carrier="solar",
+    p_max_pu=ts.solar,
+    capital_cost=costs.at["solar", "capital_cost"],
+    p_nom_extendable=True,
+)
+
+#power daten durch peak KW teilen für CF
+#load daten einarbeiten

@@ -1,0 +1,9 @@
+
+Gurobi 12.0.3 (linux64, gurobi_cl) logging started Wed Oct 29 12:50:08 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2432370
+Set parameter LogFile to value "gurobi.log"
+Using license file /home/cs/gurobi.lic
+Academic license 2432370 - for non-commercial use only - registered to 20___@post.au.dk
